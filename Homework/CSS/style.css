@@ -1,13 +1,29 @@
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(0, 0, 0);
 }
 
 h1
 {
-    color: red;
-    font-family: 'Bebas Neue';
+    color:rgb(15, 168, 44) ;
+    font-family: 'Sriracha', cursive;
+}
+
+h2
+{
+font-family: 'Lacquer', sans-serif;
 }
 /* this is class on the div in my HTML */
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 3px solid rgb(61, 193, 71);
+}
+
+tr {font-family: 'Lacquer', sans-serif;}
+
 .container
 {
   margin: auto;
@@ -21,22 +37,17 @@ h1
 .container h1 {
   font-size: 4em;
 }
-/* We added this class to my sidebar */
-.sidebar {
-  float: left;
-  margin-left: 80px;
-  padding: 20px;
-  background-color: white;
-  width: 10%;
-  box-shadow: 6px 7px 5px 2px #ededed;
-  border-radius: 20px;
-}
+
 /* we use this to create a style for my navigation tag */
 .navigation {
   display: table;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 80px;
+}
+
+.navigation li {
+color: inherit;
 }
 /* this was used in my ul tag inside my nav */
 .horizontaLine {
@@ -50,12 +61,15 @@ h1
   background-color: white;
   width: 10%;
   border-radius: 20px;
+
 }
 /* this will affect all the a tags nested on the li elements */
 .horizontaLine li a {
-  color: gray;
+  color: rgb(15, 168, 44);
+  font-family: 'Sriracha', cursive;
   text-decoration: none;
-  font-family: sans-serif;
+  font-size: 18px
+
 }
 /* This will only affect my style when the cursor is on top of my a tag */
 .horizontaLine li a:hover {
@@ -66,4 +80,21 @@ h1
 {
   width: 80%;
   margin: auto;
+}
+
+.contact h2 {
+color: rgb(15, 168, 44)
+}
+
+.contact li {
+  color: white
+}
+
+.table th {
+color: white
+
+}
+
+.table tr {
+  color: rgb(15, 168, 44)
 }

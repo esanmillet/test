@@ -6,14 +6,18 @@
     <meta name="author" content="Esan Millet">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
   </head>
   <!-- This is the body of my website -->
   <body>
     <!-- this is my header -->
     <header>
-      <h1>Resume</h1>
-      <nav>
-        <ul>
+      <h1>Resume of Esan Millet</h1>
+      <nav class="navigation">
+        <ul class="horizontaLine">
           <li> <a href="https://m.canelink.miami.edu/">Student website</a> </li>
           <li> <a href="https://www.apple.com/">Apple</a>  </li>
           <li> <a href="https://www.instagram.com/">Instagram</a>  </li>
@@ -21,32 +25,12 @@
       </nav>
     </header>
 
+<div class="container">
+
     <section>
-
-<aside>
-  <h1>Esan Anthony Millet</h1>
-  <h2>Skills and experience</h2>
-  <ul>
-    <li>1 year work experience with sales at Hollister</li>
-    <li>Graphic Design on Ipad</li>
-    <li>Intermediate knowledge with microsoft excel and it's functions</li>
-    <li>2 years Journal editor for Plantation High School</li>
-    <li>Cofounder of Soiree the Party Never Stops</li>
-    <li>Cofounder of Nogurt</li>
-  </ul>
-<h1>Favorite Hobbies by rank</h1>
-  <ol>
-    <li>Drawing and creating different designs</li>
-    <li>Exercise science and working out</li>
-    <li>Philosophy and Religion</li>
-    <li>The 3 Basic Sciences (Biology, Chemistry, Physics)</li>
-  </ol>
-</aside>
-
-
+<h1>Background information</h1>
 <!-- We use articles magazines articles, posts -->
 <article>
-  <h1>Background information</h1>
   <h2>About me</h2>
   <p> My name is Esan Millet and I grew up in Fort Lauderale, Florida. I Have artistic abilities and I am Majoring in Finance with a minor in management. I can speak Spanish pretty fluently and I am currently taking Japanese. My goal before graduation is to know Arabic, Spanish, Japanese, and English as 4 mastered langauges. I am cofounder of both
     <!-- This is for bold text and emphasis-->
@@ -59,16 +43,36 @@ is a party planning and event promotion company that uses the latest technology 
 <em>Nogurt</em>
 is a fat free yogurt company that strives to bring health and fitness to everyone around the world. I am also a student at the university of Miami studying Finance and Management. My ultimate goal is to have a successfull business.
 <!-- this is a picture of me -->
-<img src="IMG/IMG_1490.JPG" alt="Esan Anthony Millet" width="300px">
+<img src="IMG/IMG_1490.JPG" alt="Esan Anthony Millet" width="500px">
 
 </article>
 
-    </section>
+<aside>
+  <h2>Skills and experience</h2>
+  <ul>
+    <li>1 year work experience with sales at Hollister</li>
+    <li>Graphic Design on Ipad</li>
+    <li>Intermediate knowledge with microsoft excel and it's functions</li>
+    <li>2 years Journal editor for Plantation High School</li>
+    <li>Cofounder of Soiree the Party Never Stops</li>
+    <li>Cofounder of Nogurt</li>
+  </ul>
+<h2>Favorite Hobbies by rank</h2>
+  <ol>
+    <li>Drawing and creating different designs</li>
+    <li>Exercise science and working out</li>
+    <li>Philosophy and Religion</li>
+    <li>The 3 Basic Sciences (Biology, Chemistry, Physics)</li>
+  </ol>
+</aside>
 
+    </section>
+</div>
 
 
 <section>
-  <address>
+  <address class="contact">
+  <h2>Contact Information</h2>
 <ul>
   <li>Name: Esan Millet</li>
   <li>Phone number: 665-990-0987</li>
@@ -77,7 +81,7 @@ is a fat free yogurt company that strives to bring health and fitness to everyon
   </address>
 </section>
 
-<table>
+<table class="table">
   <tr>
     <!-- This is work experience in qualitative amount -->
     <th>Holister</th>

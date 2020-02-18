@@ -1,92 +1,106 @@
 <!DOCTYPE html>
-<!-- This is a html 5 -->
+<!--This is a HTML 5-->
 <html lang="en" dir="ltr">
-  <head>
 
+    <!-- This is the head of my website -->
+  <head>
     <meta charset="utf-8">
-    <title>Basic HTML Example</title>
+    <title>Basic HTML</title>
+    <!-- this is the meta data -->
     <meta name="author" content="Esan Millet">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
-
-<link rel="stylesheet" href="/css/style.css">
-
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
   </head>
+
+
   <!-- This is the body of my website -->
-
-
   <body>
-    <!-- this is my header -->
-    <header>
-      <nav>
+      <!-- This is my Header -->
+      <header>
+        <nav class="navigation" >
+          <ul class="horizontaLine">
+            <li>  <a href="https://www.apple.com">Apple</a>  </li>
+            <li>  <a href="http://guzmanj.com">  Guzman  </a>   </li>
+            <li> <a href="https://facebook.com">Facebook</a> </li>
+          </ul>
+        </nav>
+      </header>
+
+
+    <!-- This is my sidebar -->
+      <aside class="sidebar">
+        <h3>SideBar</h3>
         <ul>
-          <li> <a href="https://m.canelink.miami.edu/"></a> </li>
-          <li> <a href="https://www.apple.com/">Apple</a>  </li>
-          <li> <a href="https://www.instagram.com/">Instagram</a>  </li>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
         </ul>
-      </nav>
-    </header>
+        <ol>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ol>
+      </aside>
 
-    <section>
+      <!-- div is a box used to put our elements and give it style using css -->
+      <!-- A class can be used over and over again in one html document -->
+      <div class="container">
+        <section>
+          <h1>Title</h1>
+          <!-- We use the article tag for articles magazines, posts, etc. -->
+          <article class="article">
+            <h2>Subtitle</h2>
+            <p>
+              <!-- This is for best practices -->
+              <strong>"Lorem ipsum dolor sit amet,</strong>
+              <em>consectetur adipiscing elit, sed do eiusmod</em>
+              <!-- Have the same effect as the one above -->
+              <b>incididunt ut labore et dolore magna aliqua.</b>
+              <i>incididunt ut labore et dolore magna aliqua.</i>
+                Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+               nulla pariatur.
+            </p>
+          <img id="dog" src="img/download.jpg" alt="English Bulldog" width="400">
+          </article>
+        </section>
+      </div>
 
-<aside>
-  <h1>Title</h1>
-  <h2>Subtitle</h2>
-  <ul>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
-  </ul>
+      <section>
+        <h1>Contact Information</h1>
+        <address>
+          <ul>
+            <li>Name: Esan Millet</li>
+            <li>Phone number: 954-736-0273</li>
+            <li>email: esanmillet101@gmail.com</li>
+          </ul>
+        </address>
+      </section>
 
-  <ol>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
-  </ol>
-</aside>
-
-
-<!-- We use articles magazines articles, posts -->
-<article>
-  <h1>Title</h1>
-  <h2>Subtitle</h2>
-  <p>This is some text
-    <!-- This is for test practice -->
-<strong>Hello</strong>
-<em></em>
-<b></b>
-<i></i>
-  </p>
-
-<img src="img/download.jpg" alt="Dog eating yogurt" width="300px">
-</article>
-
-    </section>
+      <table>
+        <tr>
+          <!-- this are table headers -->
+          <th>Human Years</th>
+          <th>Dog Years</th>
+        </tr>
+        <tr>
+          <!-- this are table cells -->
+          <td>1</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>14</td>
+        </tr>
+      </table>
 
 
-
-<section>
-  <address>
-<ul>
-  <li>Name: Esan Millet</li>
-  <li>Phone number: 665-990-0987</li>
-  <li>email: eaa156@miami.edu</li>
-</ul>
-  </address>
-</section>
-
-<table>
-  <tr>
-    <!-- This is table headers -->
-    <th>Human Years</th>
-    <th>Dog Years</th>
-  </tr>
-  <tr>
-    <!-- This is table rows -->
-    <td>1</td>
-    <td>7</td>
-  </tr>
-</table>
 
   </body>
+
 </html>
