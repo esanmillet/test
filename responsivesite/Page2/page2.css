@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 35, 48);
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow:hidden;
+  transition: 0.2s
+}
+
+a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1s;
+}
+
+a span {
+  position:absolute;
+  display: block;
+}
+
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(1) {
+  left: 100%;
+  transition:1s;
+}
+
+a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(3) {
+  right: 100%;
+  transition:1s;
+  transition-delay: 0.5s
+}
+
+a span:nth-child(2) {
+  top: 100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(2) {
+  top: 100%;
+  transition:1s;
+  transition-delay: 0.25s
+}
+
+a span:nth-child(4) {
+  bottom: 100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition:1s;
+  transition-delay: 0.75s
+}
+
+.header
+{
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 1000;
+}
+.header h1
+  {
+      width: 50%;
+      margin: 0px;
+      left: 5%;
+      top: 25%;
+      position: relative;
+      color: rgb(20, 245, 231);
+      font-family: 'Baloo 2', cursive;
+      font-size: 60px;
+    }
+
+.header ul
+    {
+      float: right;
+      width: 100%;
+      list-style-type: none;
+      margin-top: -15px;
+    }
+.header nav ul li
+    {
+      display: inline;
+      margin: 30px;
+      font-size: 5px;
+      font-weight: lighter;
+    }
+
+.topnavigation {
+      display: table;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 100px;
+
+    }
+
+.topnavigation li {
+    color: inherit;
+    }
+
+
+
+.skills{
+  width: 500px;
+  margin: 250px auto;
+  color: white;
+  float: left;
+  margin-left: 80px;
+}
+
+.skills li{
+  margin: 20px 0;
+}
+
+.bar{
+  background:#353b48  ;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+
+.html {
+  width: 90%;
+animation: html 2s;
+}
+
+.css{
+width: 65%;
+animation: css 2s;
+}
+
+.jquery{
+width: 50%
+animation: jquery 2s;
+}
+
+.javascript{
+width: 70%;
+animation: javascript 2s;
+}
+
+@keyframes html {
+0%{
+  width:0%
+}
+100%{
+  width:90%
+}
+}
+
+@keyframes css {
+0%{
+  width:0%
+}
+100%{
+  width:65%
+}
+}
+
+@keyframes jquery {
+0%{
+  width:0%
+}
+100%{
+  width:50%
+}
+}
+
+@keyframes javascript {
+0%{
+  width:0%
+}
+100%{
+  width:70%
+}
+}
+
+.container
+{ margin: auto;
+  padding: 15px;
+  background-color: black;
+  width: 30%;
+  border-radius: 20px;
+  position: relative;
+  float: right;
+  margin-top: 230px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+}
+/* This will affect all the h1 inside my class container */
+.container h1 {
+  font-size: 2em;
+  color: rgb(20, 245, 231);
+  font-family: 'Baloo 2', cursive;
+}
+
+.container h2 {
+  font-size: 2em;
+  color: rgb(20, 245, 231);
+  font-family: 'Baloo 2', cursive;
+}
+.article article{
+  font-size: 1em;
+  font-family: 'Baloo 2', cursive;
+  color: white;
+}
+
+.article aside{
+  font-size: 1em;
+  font-family: 'Baloo 2', cursive;
+  color: white;
+}
+
+.picture {
+  position: absolute;
+  left: 80px;
+  top: 800px;
+}

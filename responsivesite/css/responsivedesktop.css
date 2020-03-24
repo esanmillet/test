@@ -1,0 +1,265 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 35, 48);
+}
+
+#logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ALyNNTew_0{stroke-dasharray:4928 4930;stroke-dashoffset:4929;animation:ALyNNTew_draw 2000ms linear 0ms forwards;}
+.ALyNNTew_1{stroke-dasharray:4928 4930;stroke-dashoffset:4929;animation:ALyNNTew_draw 2000ms linear 45ms forwards;}
+.ALyNNTew_2{stroke-dasharray:1684 1686;stroke-dashoffset:1685;animation:ALyNNTew_draw 2000ms linear 90ms forwards;}
+.ALyNNTew_3{stroke-dasharray:494 496;stroke-dashoffset:495;animation:ALyNNTew_draw 2000ms linear 136ms forwards;}
+.ALyNNTew_4{stroke-dasharray:372 374;stroke-dashoffset:373;animation:ALyNNTew_draw 2000ms linear 181ms forwards;}
+.ALyNNTew_5{stroke-dasharray:451 453;stroke-dashoffset:452;animation:ALyNNTew_draw 2000ms linear 227ms forwards;}
+.ALyNNTew_6{stroke-dasharray:409 411;stroke-dashoffset:410;animation:ALyNNTew_draw 2000ms linear 272ms forwards;}
+.ALyNNTew_7{stroke-dasharray:834 836;stroke-dashoffset:835;animation:ALyNNTew_draw 2000ms linear 318ms forwards;}
+.ALyNNTew_8{stroke-dasharray:230 232;stroke-dashoffset:231;animation:ALyNNTew_draw 2000ms linear 363ms forwards;}
+.ALyNNTew_9{stroke-dasharray:245 247;stroke-dashoffset:246;animation:ALyNNTew_draw 2000ms linear 409ms forwards;}
+.ALyNNTew_10{stroke-dasharray:245 247;stroke-dashoffset:246;animation:ALyNNTew_draw 2000ms linear 454ms forwards;}
+.ALyNNTew_11{stroke-dasharray:445 447;stroke-dashoffset:446;animation:ALyNNTew_draw 2000ms linear 500ms forwards;}
+.ALyNNTew_12{stroke-dasharray:309 311;stroke-dashoffset:310;animation:ALyNNTew_draw 2000ms linear 545ms forwards;}
+.ALyNNTew_13{stroke-dasharray:494 496;stroke-dashoffset:495;animation:ALyNNTew_draw 2000ms linear 590ms forwards;}
+.ALyNNTew_14{stroke-dasharray:372 374;stroke-dashoffset:373;animation:ALyNNTew_draw 2000ms linear 636ms forwards;}
+.ALyNNTew_15{stroke-dasharray:451 453;stroke-dashoffset:452;animation:ALyNNTew_draw 2000ms linear 681ms forwards;}
+.ALyNNTew_16{stroke-dasharray:409 411;stroke-dashoffset:410;animation:ALyNNTew_draw 2000ms linear 727ms forwards;}
+.ALyNNTew_17{stroke-dasharray:834 836;stroke-dashoffset:835;animation:ALyNNTew_draw 2000ms linear 772ms forwards;}
+.ALyNNTew_18{stroke-dasharray:230 232;stroke-dashoffset:231;animation:ALyNNTew_draw 2000ms linear 818ms forwards;}
+.ALyNNTew_19{stroke-dasharray:245 247;stroke-dashoffset:246;animation:ALyNNTew_draw 2000ms linear 863ms forwards;}
+.ALyNNTew_20{stroke-dasharray:245 247;stroke-dashoffset:246;animation:ALyNNTew_draw 2000ms linear 909ms forwards;}
+.ALyNNTew_21{stroke-dasharray:445 447;stroke-dashoffset:446;animation:ALyNNTew_draw 2000ms linear 954ms forwards;}
+.ALyNNTew_22{stroke-dasharray:309 311;stroke-dashoffset:310;animation:ALyNNTew_draw 2000ms linear 1000ms forwards;}
+@keyframes ALyNNTew_draw{100%
+  {stroke-dashoffset:0;}
+}
+@keyframes ALyNNTew_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}
+
+.main2{
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.middle{
+  top: 100%;
+  position: absolute;
+  left: 80%;
+  transform: translate(-50%,-0%);
+}
+
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s
+}
+
+.bar:hover{
+  background: #fff
+}
+
+input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img{
+  width: 80%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow:hidden;
+  transition: 0.2s
+}
+
+a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1s;
+}
+
+a span {
+  position:absolute;
+  display: block;
+}
+
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(1) {
+  left: 100%;
+  transition:1s;
+}
+
+a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(3) {
+  right: 100%;
+  transition:1s;
+  transition-delay: 0.5s
+}
+
+a span:nth-child(2) {
+  top: 100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(2) {
+  top: 100%;
+  transition:1s;
+  transition-delay: 0.25s
+}
+
+a span:nth-child(4) {
+  bottom: 100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3)
+}
+
+a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition:1s;
+  transition-delay: 0.75s
+}
+
+.header
+{
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 1000;
+}
+.header h1
+  {
+      width: 50%;
+      margin: 0px;
+      left: 5%;
+      top: 25%;
+      position: relative;
+      color: rgb(20, 245, 231);
+      font-family: 'Baloo 2', cursive;
+      font-size: 60px;
+    }
+
+.header ul
+    {
+      float: right;
+      width: 100%;
+      list-style-type: none;
+      margin-top: -15px;
+    }
+.header nav ul li
+    {
+      display: inline;
+      margin: 30px;
+      font-size: 5px;
+      font-weight: lighter;
+    }
+
+.topnavigation {
+      display: table;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 100px;
+
+    }
+
+.topnavigation li {
+    color: inherit;
+    }
+
+.main3 {
+    padding: 15px;
+    background-color: black;
+    width: 30%;
+    border-radius: 20px;
+    position: relative;
+    top: 100%;
+    margin-left: 100px;
+
+
+
+}
+
+.main3 p{
+  color: white;
+  font-family: 'Baloo 2', cursive;
+}
