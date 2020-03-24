@@ -100,19 +100,17 @@ a:hover span:nth-child(4) {
 }
 .header h1
   {
-      width: 50%;
-      margin: 0px;
-      left: 5%;
+      width: 20%;
       top: 25%;
       position: relative;
       color: rgb(20, 245, 231);
       font-family: 'Baloo 2', cursive;
-      font-size: 60px;
+      font-size: 3em;
+      text-align: center;
     }
 
 .header ul
     {
-      float: right;
       width: 100%;
       list-style-type: none;
       margin-top: -15px;
@@ -121,15 +119,14 @@ a:hover span:nth-child(4) {
     {
       display: inline;
       margin: 30px;
-      font-size: 5px;
+      font-size: 2em;
       font-weight: lighter;
     }
 
 .topnavigation {
-      display: table;
-      margin: 0 auto;
-      margin-top: 30px;
-      margin-bottom: 100px;
+  margin: 0 auto;
+margin-top: 30px;
+margin-bottom: 100px;
 
     }
 
@@ -142,15 +139,11 @@ a:hover span:nth-child(4) {
     /* GRID IMAGES */
 
     .gridImages
-    {
+    { position: relative;
       width: 70%;
-      height: 100vh;
+      height: 120vh;
       margin: auto;
-      display: grid;
-      grid-template-rows: 50% 50%;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-row-gap: 5px;
-      grid-column-gap: 30px;
+      margin-top: 300px;
       text-align: center;
       padding-top: 15%;
     }
@@ -173,7 +166,5 @@ a:hover span:nth-child(4) {
       height: 90vh;
       bottom: 100px;
       margin: auto;
-      display: grid;
-      grid-template-rows: 50% 50%;
-      grid-template-columns: 1fr 1fr;
+      margin-top: 100%
     }

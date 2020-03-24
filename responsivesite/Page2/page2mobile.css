@@ -100,7 +100,7 @@ a:hover span:nth-child(4) {
 }
 .header h1
   {
-      width: 30%;
+      width: 20%;
       top: 25%;
       position: relative;
       color: rgb(20, 245, 231);
@@ -124,7 +124,7 @@ a:hover span:nth-child(4) {
     }
 
 .topnavigation {
-margin: 0 auto;
+  margin: 0 auto;
 margin-top: 30px;
 margin-bottom: 100px;
 
@@ -141,6 +141,7 @@ margin-bottom: 100px;
   width: 100%;
   color: white;
   margin-top: 180px;
+  display: none;
 }
 
 .skills li{
@@ -226,13 +227,11 @@ animation: javascript 2s;
   width: 100%;
   border-radius: 20px;
   position: relative;
-  margin-top: 260px;
-  margin-right: 100px;
-  margin-bottom: 80px;
+  margin-top: 400px;
 }
 /* This will affect all the h1 inside my class container */
 .container h1 {
-  font-size: 2em;
+  font-size: 1em;
   color: rgb(20, 245, 231);
   font-family: 'Baloo 2', cursive;
 }
@@ -256,5 +255,6 @@ animation: javascript 2s;
 
 .picture {
   position: absolute;
+  width: 50%;
 
 }
