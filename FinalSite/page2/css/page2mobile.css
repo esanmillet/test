@@ -1,0 +1,94 @@
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(24, 43, 60);
+  color: black;
+  font-family: sans-serif;
+
+}
+.grid {
+  width: 80%;
+  height: 230vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "he he he"
+  "na na na"
+  "ma ma ma"
+  "fo fo fo"
+  ;
+
+  grid-template-rows: .1fr .1fr 3fr .1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.grid header
+{
+  grid-area: he;
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.grid nav
+{
+  grid-area: na;
+  background-color: white;
+  padding: 5px;
+  border-radius: 30px;
+}
+.grid main
+{
+  grid-area: ma;
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px
+}
+
+.grid footer
+{
+  grid-area: fo;
+  color: white;
+  font-size: 2em
+}
+
+nav
+{
+  margin: auto;
+  padding: 0;
+}
+nav ul
+{
+  padding: 10;
+  margin: 0;
+  display:block;
+}
+
+nav ul li a
+{
+  padding: 10%;
+  font-size: 2.3vw;
+  color: black;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+img {
+  opacity: 0;
+}
